@@ -160,8 +160,8 @@ class NeteaseTopSong(object):
             song.post_set()
             self.songs.append(song)
             #check config for top X
-            if len(self.songs) >= config.DOWNLOAD_TOP_SONG:
-                break
+            #if len(self.songs) >= config.DOWNLOAD_TOP_SONG:
+            #    break
 
         if len(self.songs):
             #creating the dir
